@@ -11,7 +11,7 @@
 3. 打开管理员命令窗口.
 4. 克隆项目的存储库.
 5. 将目录更改为项目存储库的目录.
-6. 将MixedReality-SpectatorView代码库添加为项目的子模块,通过运行 `git submodule add https://github.com/microsoft/MixedReality-SpectatorView.git sv`
+6. 通过运行 `git submodule add https://github.com/microsoft/MixedReality-SpectatorView.git sv`将MixedReality-SpectatorView代码库添加为项目的子模块
 
 
 ### Setting up your local environment
