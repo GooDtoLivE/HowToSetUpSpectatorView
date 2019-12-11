@@ -12,14 +12,14 @@
 4. 克隆项目的存储库.
 5. 将目录更改为项目存储库的目录.
 6. 通过运行 `git submodule add https://github.com/microsoft/MixedReality-SpectatorView.git sv`将MixedReality-SpectatorView代码库添加为项目的子模块
-https://github.com/GooDtoLivE/MixedReality-SpectatorView/blob/master/doc/images/AddSubmodule.png
+![Marker]https://github.com/GooDtoLivE/MixedReality-SpectatorView/blob/master/doc/images/AddSubmodule.png
 
 ### Setting up your local environment
 
 **Add SubModules**
 1. 管理员身份运行Power shell，然后导航到项目文件夹中的SV文件夹
 2. 运行 tools/Scripts/SetupRepository.bat命令
-https://github.com/GooDtoLivE/MixedReality-SpectatorView/blob/master/doc/images/AddSubmodule.png
+![Marker]https://github.com/GooDtoLivE/MixedReality-SpectatorView/blob/master/doc/images/AddSubmodule.png
 3. 该命令会自动下载[MixedRealityToolkit-Unity](https://github.com/microsoft/MixedRealityToolkit-Unity)、[Azure-Spatial-Anchors-Samples](https://github.com/Azure/azure-spatial-anchors-samples) 、 [ARCore-Unity-SDK](https://github.com/google-ar/arcore-unity-sdk)
 这是当前项目中所包含的子模块
 
