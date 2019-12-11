@@ -26,8 +26,8 @@
 >Note: 如果下载过程中出现了中断或者未完成的情况，请直接在该处下载[MixedRealityToolkit-Unity](https://github.com/microsoft/MixedRealityToolkit-Unity/tree/b7dbeb6e9b14355ed176a388ddac3e4a4a1946f9)、[Azure-Spatial-Anchors-Samples](https://github.com/Azure/azure-spatial-anchors-samples/tree/61a1e390cb09ab7544da9304460f5b88e331a3ef) 、 [ARCore-Unity-SDK](https://github.com/google-ar/arcore-unity-sdk/tree/05829541bdf24c6dcbbeb5976dc1673c6a482471)将下载的文件解压后复制到工程下的sv\external\模块中的文件
 
 **设置依赖关系**
-1.管理员身份运行Power shell，然后导航到项目文件夹中的SV文件夹
-2.运行tools\Scripts\AddDependencies.bat -AssetPath "Assets" -SVPath "sv"
+1. 管理员身份运行Power shell，然后导航到项目文件夹中的SV文件夹
+2. 运行tools\Scripts\AddDependencies.bat -AssetPath "Assets" -SVPath "sv"
 
 >Note: 工程结构如下
 >* **Project repository directory:** c:\Your\Unity\Project
