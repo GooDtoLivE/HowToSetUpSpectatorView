@@ -30,6 +30,7 @@
 2.运行tools\Scripts\AddDependencies.bat -AssetPath "Assets" -SVPath "sv"
 
 >Note: 工程结构如下
+
 Project repository directory: c:\Your\Unity\Project
 Project Assets directory: c:\Your\Unity\Project\Assets
 MixedReality-SpectatorView submodule directory: c:\Your\Unity\Project\sv
