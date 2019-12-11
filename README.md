@@ -4,7 +4,7 @@
 
 ### Obtaining the code
 
-**当前，获取和使用Spectator View代码的受支持过程是通过将存储库作为子模块添加到您的项目中来进行** 从发布选项卡下载源代码，但是如果您选择不引用代码库，则辅助脚本和示例项目可能会中断。子模块。克隆和使用git存储库的步骤如下:
+**当前，获取和使用Spectator View代码的受支持过程是通过将存储库作为子模块添加到您的项目中来进行** 从发布选项卡下载源代码，但是如果选择不引用代码库，则相关脚本和示例项目可能会中断。子模块。克隆和使用git存储库的步骤如下:
 
 1. 下载 [git](https://git-scm.com/downloads)
 2. 为您的项目设置存储库。有关如何设置存储库的更多信息，请参见 [here](https://help.github.com/en/articles/create-a-repo).
@@ -12,13 +12,14 @@
 4. 克隆项目的存储库.
 5. 将目录更改为项目存储库的目录.
 6. 通过运行 `git submodule add https://github.com/microsoft/MixedReality-SpectatorView.git sv`将MixedReality-SpectatorView代码库添加为项目的子模块
-
+https://github.com/GooDtoLivE/MixedReality-SpectatorView/blob/master/doc/images/AddSubmodule.png
 
 ### Setting up your local environment
 
 **Add SubModules**
 1. 管理员身份运行Power shell，然后导航到项目文件夹中的SV文件夹
 2. 运行 tools/Scripts/SetupRepository.bat命令
+https://github.com/GooDtoLivE/MixedReality-SpectatorView/blob/master/doc/images/AddSubmodule.png
 3. 该命令会自动下载[MixedRealityToolkit-Unity](https://github.com/microsoft/MixedRealityToolkit-Unity)、[Azure-Spatial-Anchors-Samples](https://github.com/Azure/azure-spatial-anchors-samples) 、 [ARCore-Unity-SDK](https://github.com/google-ar/arcore-unity-sdk)
 这是当前项目中所包含的子模块
 
