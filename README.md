@@ -29,10 +29,7 @@
 1.管理员身份运行Power shell，然后导航到项目文件夹中的SV文件夹
 2.运行tools\Scripts\AddDependencies.bat -AssetPath "Assets" -SVPath "sv"
 
->Note: 
-工程结构如下
-Project repository directory: c:\Your\Unity\Project
-
-Project Assets directory: c:\Your\Unity\Project\Assets
-
-MixedReality-SpectatorView submodule directory: c:\Your\Unity\Project\sv
+>Note: 工程结构如下
+>* **Project repository directory:** c:\Your\Unity\Project
+>* **Project Assets directory:** c:\Your\Unity\Project\Assets
+>* **MixedReality-SpectatorView submodule directory:** c:\Your\Unity\Project\sv
