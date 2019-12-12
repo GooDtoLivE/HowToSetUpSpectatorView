@@ -10,6 +10,7 @@
 2. 为您的项目设置存储库。有关如何设置存储库的更多信息，请参见 [这里](https://help.github.com/en/articles/create-a-repo).
 3. 打开管理员命令窗口.
 4. 克隆项目的存储库.
+
 5. 将目录更改为项目存储库的目录.
 6. 通过运行 `git submodule add https://github.com/microsoft/MixedReality-SpectatorView.git sv`将MixedReality-SpectatorView代码库添加为项目的子模块
 图 
@@ -58,3 +59,6 @@
 
 10.构建并部署 spectating 场景到移动设备上. 确保在Build Setting是中包含了 `SpectatorView.Android.unity`, `SpectatorView.iOS.unity` 或者 `SpectatorView.HoloLens.Spectator.unity` 场景. 特定的平台构建说明可以在 [这里](https://github.com/GooDtoLivE/MixedReality-SpectatorView/blob/master/doc/SpectatorView.Setup.md)找到.
 
+##细节设置##
+有关设置SpectatorView项目更多的信息：
+>* ** [Spectating with an Android, an iOS or a HoloLens device](https://github.com/GooDtoLivE/MixedReality-SpectatorView/blob/master/doc/SpectatorView.Setup.md)
