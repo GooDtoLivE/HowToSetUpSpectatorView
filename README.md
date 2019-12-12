@@ -61,4 +61,4 @@
 
 ###细节设置
 有关设置SpectatorView项目更多的信息：
-* .[Spectating with an Android, an iOS or a HoloLens device](https://github.com/GooDtoLivE/MixedReality-SpectatorView/blob/master/doc/SpectatorView.Setup.md)
+* [Spectating with an Android, an iOS or a HoloLens device](https://github.com/GooDtoLivE/MixedReality-SpectatorView/blob/master/doc/SpectatorView.Setup.md)
