@@ -35,3 +35,6 @@
 >* **MixedReality-SpectatorView submodule directory:** c:\Your\Unity\Project\sv
 
 ### Unity基础设置
+
+1. 确保项目中包含了构建SpectatorView所需要的[软硬件](https://github.com/GooDtoLivE/MixedReality-SpectatorView/blob/master/doc/SpectatorView.Setup.md)
+2. 
