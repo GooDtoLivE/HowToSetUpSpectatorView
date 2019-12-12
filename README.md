@@ -59,6 +59,6 @@
 
 10.构建并部署 spectating 场景到移动设备上. 确保在Build Setting是中包含了 `SpectatorView.Android.unity`, `SpectatorView.iOS.unity` 或者 `SpectatorView.HoloLens.Spectator.unity` 场景. 特定的平台构建说明可以在 [这里](https://github.com/GooDtoLivE/MixedReality-SpectatorView/blob/master/doc/SpectatorView.Setup.md)找到.
 
-###细节设置
+### 细节设置
 有关设置SpectatorView项目更多的信息：
 * [Spectating with an Android, an iOS or a HoloLens device](https://github.com/GooDtoLivE/MixedReality-SpectatorView/blob/master/doc/SpectatorView.Setup.md)
