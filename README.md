@@ -42,19 +42,19 @@
 
 3. 添加 `MixedReality.SpectatorView/SpectatorView/Prefabs/SpectatorView.prefab` 到主场景. 这个 prefab 包含了大量的Spectator View code 用于跨设备之间的同步和对齐.
 
-4. 选择 [Spatial Alignment Strategy](src/SpectatorView.Unity/Assets/SpatialAlignment/README.md) 允许多个设备在物理世界中的同一位置查看holograms. 不同的机制实现对齐, 比如 [Azure Spatial Anchors](https://azure.microsoft.com/en-us/services/spatial-anchors/) 和 基于标记检测器的方法. 并非所有方法都适用于所有设备，因此需要选择最能满足您需求的策略.
+4. 选择 [Spatial Alignment Strategy](https://github.com/GooDtoLivE/MixedReality-SpectatorView/blob/master/src/SpectatorView.Unity/Assets/SpatialAlignment/README.md) 允许多个设备在物理世界中的同一位置查看holograms. 不同的机制实现对齐, 比如 [Azure Spatial Anchors](https://azure.microsoft.com/en-us/services/spatial-anchors/) 和 基于标记检测器的方法. 并非所有方法都适用于所有设备，因此需要选择最能满足您需求的策略.
 
-5. 添加Unity项目的Spatial Alignment Strategy所需的 [dependencies](doc/SpectatorView.Setup.md). 这涉及到更新 git submodules, 添加 symbolic linked 目录, 以及 手动下载和解压Zip文件. 完成此步骤后，将获得Unity项目中包含的外部项目中所有需要的代码.
+5. 添加Unity项目的Spatial Alignment Strategy所需的 [依赖项](https://github.com/GooDtoLivE/MixedReality-SpectatorView/blob/master/doc/SpectatorView.Setup.md). 这涉及到更新 git submodules, 添加 symbolic linked 目录, 以及 手动下载和解压Zip文件. 完成此步骤后，将获得Unity项目中包含的外部项目中所有需要的代码.
 
-6. 更新 Unity project 和 player settings 基于 [requirements](doc/SpectatorView.Setup.md) Spatial Alignment Strategy. T通常涉及将预处理器指令添加到不同平台的player settings中，以启用特定于您所需的代码路径的 Spatial Alignment Strategy.
+6. 更新 Unity project 和 player settings 的 [需求](https://github.com/GooDtoLivE/MixedReality-SpectatorView/blob/master/doc/SpectatorView.Setup.md) Spatial Alignment Strategy. 通常涉及将预处理器指令添加到不同平台的player settings中，以启用特定于您所需的代码路径的 Spatial Alignment Strategy.
 
-7. 生成并check-in Asset Caches到项目的 repository. 这些 Asset Caches 就像 GameObject registries 并允许不同的设备运行程序，去了解在整个软件运行周期中创建、销毁或更新了哪些Unity对象. 生成 asset caches, 运行 [Spectator View -> Update All Asset Caches](doc/SpectatorView.Setup.md)在 Unity Editor toolbar.
+7. 生成并check-in Asset Caches到项目的 repository. 这些 Asset Caches 就像 GameObject registries 并允许不同的设备运行程序，去了解在整个软件运行周期中创建、销毁或更新了哪些Unity对象. 生成 asset caches, 运行 [Spectator View -> Update All Asset Caches](https://github.com/GooDtoLivE/MixedReality-SpectatorView/blob/master/doc/SpectatorView.Setup.md)在 Unity Editor toolbar.
 
-8. 构建并部署你的主场景 HoloLens上.
+8. 构建并部署主场景 HoloLens上.
 
 9. 打开样例适用于移动设备的 spectating 场景. 应该是 `SpectatorView.Android.unity`, `SpectatorView.iOS.unity` 或者 `SpectatorView.HoloLens.Spectator.unity`.
 
     > Note: 创建自己的 spectating 场景, 确保 `SpectatorView` 对象的 `Role` 属性被设置为 `Spectator`;   在 `SpectatorView > SpatialCoordinateSystem > CameraTransform` 对象上的`Shared Coordinate Origin`属性被设置为主相机父节点对象.
 
-10.构建并部署 spectating 场景到移动设备上. 确保在Build Setting是中包含了 `SpectatorView.Android.unity`, `SpectatorView.iOS.unity` 或者 `SpectatorView.HoloLens.Spectator.unity` 场景. 特定的平台构建说明可以在这里 [here](doc/SpectatorView.Setup.md)找到.
+10.构建并部署 spectating 场景到移动设备上. 确保在Build Setting是中包含了 `SpectatorView.Android.unity`, `SpectatorView.iOS.unity` 或者 `SpectatorView.HoloLens.Spectator.unity` 场景. 特定的平台构建说明可以在这里 [here](https://github.com/GooDtoLivE/MixedReality-SpectatorView/blob/master/doc/SpectatorView.Setup.md)找到.
 
