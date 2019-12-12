@@ -2,7 +2,7 @@
 搭建Hololens-SpectatorView环境
 ## Getting Started
 
-### Obtaining the code
+### 获取官方源码
 
 **当前，获取和使用Spectator View代码的受支持过程是通过将存储库作为子模块添加到您的项目中来进行** 从发布选项卡下载源代码，但是如果选择不引用代码库，则相关脚本和示例项目可能会中断。子模块。克隆和使用git存储库的步骤如下:
 
@@ -14,9 +14,9 @@
 6. 通过运行 `git submodule add https://github.com/microsoft/MixedReality-SpectatorView.git sv`将MixedReality-SpectatorView代码库添加为项目的子模块
 图
 
-### Setting up your local environment
+### 设置本地环境
 
-**Add SubModules**
+**添加子模块**
 1. 管理员身份运行Power shell，然后导航到项目文件夹中的SV文件夹
 2. 运行 tools/Scripts/SetupRepository.bat命令
 图
@@ -33,3 +33,5 @@
 >* **Project repository directory:** c:\Your\Unity\Project
 >* **Project Assets directory:** c:\Your\Unity\Project\Assets
 >* **MixedReality-SpectatorView submodule directory:** c:\Your\Unity\Project\sv
+
+### Unity基础设置
