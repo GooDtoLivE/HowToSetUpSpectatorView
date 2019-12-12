@@ -13,7 +13,7 @@
 
 5. 将目录更改为项目存储库的目录.
 6. 通过运行 `git submodule add https://github.com/microsoft/MixedReality-SpectatorView.git sv`将MixedReality-SpectatorView代码库添加为项目的子模块
-图 
+SpectastorView/AddDependencies.png
 
 ### 设置本地环境
 
