@@ -10,17 +10,17 @@
 2. 为您的项目设置存储库。有关如何设置存储库的更多信息，请参见 [这里](https://help.github.com/en/articles/create-a-repo).
 3. 打开管理员命令窗口.
 4. 克隆项目的存储库.
-![Marker](SpectastorView/SpectastorView/CloneRepo.png)
+![Marker](SpectastorView/CloneRepo.png)
 5. 将目录更改为项目存储库的目录.
 6. 通过运行 `git submodule add https://github.com/microsoft/MixedReality-SpectatorView.git sv`将MixedReality-SpectatorView代码库添加为项目的子模块
-![Marker](SpectastorView/SpectastorView/AddSubmodule.png)
+![Marker](SpectastorView/AddSubmodule.png)
 
 ### 设置本地环境
 
 **添加子模块**
 1. 管理员身份运行Power shell，然后导航到项目文件夹中的SV文件夹
 2. 运行 tools/Scripts/SetupRepository.bat命令
-![Marker](SpectastorView/SpectastorView/SetupRepo.png)
+![Marker](SpectastorView/SetupRepo.png)
 3. 该命令会自动下载[MixedRealityToolkit-Unity](https://github.com/microsoft/MixedRealityToolkit-Unity)、[Azure-Spatial-Anchors-Samples](https://github.com/Azure/azure-spatial-anchors-samples) 、 [ARCore-Unity-SDK](https://github.com/google-ar/arcore-unity-sdk)
 以上模块是当前项目中所包含的子模块
 
@@ -29,11 +29,12 @@
 **设置依赖关系**
 1. 管理员身份运行Power shell，然后导航到项目文件夹中的SV文件夹
 2. 运行tools\Scripts\AddDependencies.bat -AssetPath "Assets" -SVPath "sv"
-图 ![Marker](SpectastorView/SpectastorView/AddDependencies.png)
+图 ![Marker](SpectastorView/AddDependencies.png)
 >Note: 工程结构如下
 >* **Project repository directory:** c:\Your\Unity\Project
 >* **Project Assets directory:** c:\Your\Unity\Project\Assets
 >* **MixedReality-SpectatorView submodule directory:** c:\Your\Unity\Project\sv
+
 
 ### Unity基础设置
 
