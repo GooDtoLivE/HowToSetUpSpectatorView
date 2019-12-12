@@ -56,5 +56,5 @@
 
     > Note: 创建自己的 spectating 场景, 确保 `SpectatorView` 对象的 `Role` 属性被设置为 `Spectator`;   在 `SpectatorView > SpatialCoordinateSystem > CameraTransform` 对象上的`Shared Coordinate Origin`属性被设置为主相机父节点对象.
 
-10.构建并部署 spectating 场景到移动设备上. 确保在Build Setting是中包含了 `SpectatorView.Android.unity`, `SpectatorView.iOS.unity` 或者 `SpectatorView.HoloLens.Spectator.unity` 场景. 特定的平台构建说明可以在这里 [here](https://github.com/GooDtoLivE/MixedReality-SpectatorView/blob/master/doc/SpectatorView.Setup.md)找到.
+10.构建并部署 spectating 场景到移动设备上. 确保在Build Setting是中包含了 `SpectatorView.Android.unity`, `SpectatorView.iOS.unity` 或者 `SpectatorView.HoloLens.Spectator.unity` 场景. 特定的平台构建说明可以在 [这里](https://github.com/GooDtoLivE/MixedReality-SpectatorView/blob/master/doc/SpectatorView.Setup.md)找到.
 
